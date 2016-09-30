@@ -1,0 +1,16 @@
+[Unit]
+Description=CoreOS issue 254 (unregister_netdevice) workaround
+
+[Service]
+TimeoutStartSec=0
+Restart=always
+RestartSec=1min
+ExecStart=/usr/bin/bash -c ' \
+    journalctl -k -f | grep -m 1 "unregister_netdevice: waiting for vethd"; \
+    until locksmithctl unlock; locksmithctl lock; do \
+        sleep 5; \
+    done; \
+    sudo reboot'
+
+[X-Fleet]
+Global=true
