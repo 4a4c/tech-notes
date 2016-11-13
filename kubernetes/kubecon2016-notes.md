@@ -23,7 +23,7 @@ Notes on things I want to follow up on from kubecon 2016.
 
 [promethus operator](https://coreos.com/blog/the-prometheus-operator.html)
 
--[repo](https://github.com/coreos/prometheus-operator)
+- [repo](https://github.com/coreos/prometheus-operator)
 
 [dex](https://github.com/coreos/dex) - OpenID connect and OAuth2.0
 
