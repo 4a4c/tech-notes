@@ -21,9 +21,12 @@ Notes on things I want to follow up on from kubecon 2016.
 
 [bootkube](https://github.com/kubernetes-incubator/bootkube) - self hosted cluster
 
+- [demo](https://github.com/coreos/coreos-baremetal/blob/master/Documentation/bootkube.md)
+
 [promethus operator](https://coreos.com/blog/the-prometheus-operator.html)
 
 - [repo](https://github.com/coreos/prometheus-operator)
+- [demo](https://github.com/philips/etcd-prometheus-operator-demo) - phillips
 
 [dex](https://github.com/coreos/dex) - OpenID connect and OAuth2.0
 
@@ -46,6 +49,14 @@ Notes on things I want to follow up on from kubecon 2016.
 - [...for CoreOS](http://kubernetes.io/docs/admin/kubeadm/) - open issue
 
 [kube-state-metrics](https://github.com/kubernetes/kube-state-metrics/blob/master/README.md) - kubernetes metrics exporter for promethius
+
+[kubernetes-tests](https://github.com/pearsontechnology/kubernetes-tests) - k8s test suite by pearson
+
+[authorization webhook](https://github.com/pearsontechnology/bitesize-authz-webhook) - by pearson
+
+[dashboard](https://github.com/kubernetes/dashboard) - k8s dashboard(ui) repo and install
+
+[coreDNS](https://github.com/miekg/coredns) - skyDNS successor
 
 ## Storage
 
