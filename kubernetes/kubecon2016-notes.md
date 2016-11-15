@@ -61,6 +61,9 @@ Notes on things I want to follow up on from kubecon 2016.
 [kargo](https://github.com/kubernetes-incubator/kargo) - another bootstrap incubator
 
 [cluster example](https://github.com/nitinmidha/kube-cluster) - from someone in sig-cluster-lifecycle
+
+[https://cloudcraft.co/](https://cloudcraft.co/) - cloudy diagrams
+
 ## Storage
 
 [storage os](http://storageos.com/)
@@ -72,3 +75,7 @@ Notes on things I want to follow up on from kubecon 2016.
 ## Network
 
 [weave install](http://git.io/weave-kube)
+
+## Security
+
+[k8s id managemment](https://github.com/TremoloSecurity/wiki/blob/master/kubernetes.md) -  helpful blog
