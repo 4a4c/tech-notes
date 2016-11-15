@@ -58,6 +58,8 @@ Notes on things I want to follow up on from kubecon 2016.
 
 [coreDNS](https://github.com/miekg/coredns) - skyDNS successor
 
+[kargo](https://github.com/kubernetes-incubator/kargo) - another bootstrap incubator
+
 ## Storage
 
 [storage os](http://storageos.com/)
