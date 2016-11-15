@@ -64,6 +64,8 @@ Notes on things I want to follow up on from kubecon 2016.
 
 [https://cloudcraft.co/](https://cloudcraft.co/) - cloudy diagrams
 
+[kops](https://github.com/kubernetes/kops) - another deploy tool for AWS, is it worth looking into?
+
 ## Storage
 
 [storage os](http://storageos.com/)
