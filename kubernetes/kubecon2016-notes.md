@@ -60,6 +60,7 @@ Notes on things I want to follow up on from kubecon 2016.
 
 [kargo](https://github.com/kubernetes-incubator/kargo) - another bootstrap incubator
 
+[cluster example](https://github.com/nitinmidha/kube-cluster) - from someone in sig-cluster-lifecycle
 ## Storage
 
 [storage os](http://storageos.com/)
