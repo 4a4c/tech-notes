@@ -11,6 +11,8 @@ Notes on things I want to follow up on from kubecon 2016.
 
 [cncf cluster](https://www.cncf.io/cluster)
 
+[kubecon youtube channel](https://www.youtube.com/playlist?list=PLj6h78yzYM2PqgIGU1Qmi8nY7dqn9PCr4)
+
 ## CoreOS
 
 [etcd-operator](https://coreos.com/blog/introducing-the-etcd-operator.html)
