@@ -83,3 +83,7 @@ Notes on things I want to follow up on from kubecon 2016.
 ## Security
 
 [k8s id managemment](https://github.com/TremoloSecurity/wiki/blob/master/kubernetes.md) -  helpful blog
+
+## Monitoring
+
+[snap for k8s](https://medium.com/intel-sdi/the-benefits-of-using-snap-with-kubernetes-c15557a28b54#.488sf9fh1)
