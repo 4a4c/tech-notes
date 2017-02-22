@@ -1,0 +1,15 @@
+[Unit]
+Description=Mount /dev/sdc1 to /mnt/cassandra/data1
+# create and format /dev/sdc1 as ext4
+# place this file in /etc/systemd/system/
+# enable via systemctl enable mnt-cassandra*
+
+[Mount]
+What=/dev/sdc1
+Where=/mnt/cassandra/data1
+Type=ext4
+Options=defaults
+DirectoryMode=0755
+
+[Install]
+WantedBy=multi-user.target
