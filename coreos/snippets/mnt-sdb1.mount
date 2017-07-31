@@ -1,0 +1,11 @@
+[Unit]
+Description=Mount /dev/sbd1 to /mnt/sdb1
+# place at /etc/systemd/system/mnt-sdb1.mount
+# run systemctl start mnt-sdb1 to mount
+# run systemctl stop mnt-sdb1 to unmount
+
+[Mount]
+What=/dev/sdb1
+Where=/mnt/sdb1
+Type=ext4
+Options=noauto_da_alloc
