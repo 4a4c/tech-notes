@@ -35,3 +35,16 @@ Delete branch
 Pull from remote
 
 `git pull upstream master`
+
+## Cherry-Picking across branches
+
+Verify range
+```
+git log origin/sites/anvil1 2e524c071144195a0018ad8f0352e924918eac11..9652326f7b07a5b4c615c2565878a309fa623cfc --reverse --oneline
+git log origin/sites/anvil1 2e524c071144195a0018ad8f0352e924918eac11..9652326f7b07a5b4c615c2565878a309fa623cfc --reverse --pretty=%H
+```
+
+commit cherry-picks
+```
+for commit in $(git log origin/sites/anvil1 2e524c071144195a0018ad8f0352e924918eac11..9652326f7b07a5b4c615c2565878a309fa623cfc --reverse --pretty=%H); do git cherry-pick $commit; read -s -k '?Press any key to continue.'; done
+```
